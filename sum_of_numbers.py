@@ -13,7 +13,7 @@ def main():
     # try catch and calculations
     try:
         num_as_int = int(num_as_string)
-        if num_as_string > 0:
+        if num_as_int > 0:
             while True:
                 counter_loop = counter_loop + 1
                 squared = counter_loop**2
